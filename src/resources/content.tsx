@@ -8,7 +8,7 @@ const person: Person = {
   role: "Data Scientist",
   avatar: "/images/avatar.jpg",
   email: "bollas2@sunypoly.edu",
-  location: "United states",
+  location: "America/New_York",
   languages: ["English"],
 };
 
