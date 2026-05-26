@@ -8,7 +8,7 @@ const person: Person = {
   role: "Data Scientist",
   avatar: "/images/avatar.jpg",
   email: "bollas2@sunypoly.edu",
-  location: "America/New_York",
+  location: "United states",
   languages: ["English"],
 };
 
@@ -35,6 +35,12 @@ const social: Social = [
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
+    essential: true,
+  },
+  {
+    name: "Resume",
+    icon: "document",
+    link: "/resume final.pdf",
     essential: true,
   },
 ];
